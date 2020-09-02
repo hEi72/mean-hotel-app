@@ -1,0 +1,34 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "MEAN stack application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hEi872/mean-app.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "jeang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hEi872/mean-app/issues"
+  },
+  "homepage": "https://github.com/hEi872/mean-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.2",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.2"
+  }
+}
